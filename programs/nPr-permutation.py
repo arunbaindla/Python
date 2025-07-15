@@ -7,4 +7,4 @@ def fact(n):
 a=int(input("enter n value in nPr"))
 r=int(input("enter r value in nPr"))
 
-print(fact(a)//fact(r))
+print(fact(a)//fact(a-r))
