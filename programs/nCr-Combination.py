@@ -3,8 +3,8 @@ def fact(n):
         return 1 
     elif(n>1):
         return n*fact(n-1)
+print(fact(3)) //o/p: 3*2*1=6     
+        
+        
 
-a=int(input("enter n value in nCr"))
-r=int(input("enter r value in nCr"))
 
-print(fact(a)//(fact(r)*fact(a-r)))
